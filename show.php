@@ -17,7 +17,7 @@
       <input type="radio" name="layer" value="base" checked> Basemap
     </div>
 
-    <div class="btn btn-primary active">
+    <div class="btn btn-primary">
       <input type="radio" name="layer" value="ortelius"> Ortelius
     </div>
 

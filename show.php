@@ -14,11 +14,15 @@
   <div class="btn-group" data-toggle="buttons">
 
     <div class="btn btn-primary active">
-      <input type="radio" name="layer" value="ortelius" checked> Ortelius
+      <input type="radio" name="layer" value="base" checked> Basemap
+    </div>
+
+    <div class="btn btn-primary active">
+      <input type="radio" name="layer" value="ortelius"> Ortelius
     </div>
 
     <div class="btn btn-primary">
-      <input type="radio" name="layer" value="kaerio"> Kaerio
+      <input type="radio" name="layer" value="keere"> Keere
     </div>
 
     <div class="btn btn-primary">

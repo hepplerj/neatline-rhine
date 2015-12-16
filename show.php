@@ -32,4 +32,6 @@
   </div>
 </div>
 
+<img id="legend" src="http://cestastanford.org/projects/rhine/images/legend.png" alt="Legend">
+
 <?php echo foot(); ?>

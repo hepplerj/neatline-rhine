@@ -14,15 +14,11 @@
   <div class="btn-group" data-toggle="buttons">
 
     <div class="btn btn-primary active">
-      <input type="radio" name="layer" value="base" checked> Basemap
+      <input type="radio" name="layer" value="ortelius" checked> Ortelius
     </div>
 
     <div class="btn btn-primary">
-      <input type="radio" name="layer" value="ortelius"> Ortelius
-    </div>
-
-    <div class="btn btn-primary">
-      <input type="radio" name="layer" value="keere"> Keere
+      <input type="radio" name="layer" value="kaerio"> Kaerio
     </div>
 
     <div class="btn btn-primary">
@@ -31,7 +27,5 @@
 
   </div>
 </div>
-
-<img id="legend" src="http://cestastanford.org/projects/rhine/images/legend.png" alt="Legend">
 
 <?php echo foot(); ?>

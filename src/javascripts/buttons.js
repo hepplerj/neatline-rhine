@@ -16,7 +16,11 @@ Neatline.module('Rhine', function() {
         source: 'RHINE',
         key: 'layers',
         evaluator: function(r) {
-          return r.hasTag(map);
+          if (map == "confessions") {
+            return r.hasTag(map) || r.hasTag("base");
+          } else {
+            return r.hasTag(map);
+          }
         }
       });
 
